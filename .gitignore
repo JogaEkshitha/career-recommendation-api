@@ -1,0 +1,21 @@
+_# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+
+# Model artifacts (optional if very large)
+*.joblib
+*.npz
